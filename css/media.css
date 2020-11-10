@@ -1,0 +1,642 @@
+@media screen and (max-width : 1220px) {
+    .quick-links__list ul {
+        text-align: center;
+    } 
+    
+    .quick-links__title {
+        text-align: center;
+    }
+    
+    .footer-contact ul {
+        text-align: center;
+    }
+    
+    .footer-contact__title {
+        text-align: center;
+    }
+    
+    .footer-contact__socials ul {
+        justify-content: center;
+    }
+} 
+
+
+@media screen and (max-width : 1198px) {
+    .header__first-title {
+        margin-left: 0px;
+    }
+    
+    .header__second-title {
+        margin-left: 0px;
+    }
+    
+    .header__text {
+        margin-left: 0px;
+    }
+    
+    .yoga ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .yoga__info {
+        margin-left: 0px;
+    }
+    
+    .yoga__title i {
+        display: none;
+    }
+    
+    .body-program__first-part ul li {
+        width: 300px;
+    }
+    
+    .body-program__second-part ul li {
+        width: 300px;
+    }
+    
+    .body-program__btn {
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width : 1180px) {
+    .quick-links__title {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width : 1170px) {
+    .footer::before {
+        display: none;
+    }
+    
+    .footer__img-girl {
+        margin-top: 350px;
+        margin-left: 200px;
+    }
+    
+    .motivation {
+        margin-left: 0px; 
+    }
+}
+
+
+@media screen and (max-width : 1125px) {
+    .coaches ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .coaches ul li {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .coach-thirteen {
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width : 1070px) {
+    .coaches ul {
+        display: flex;
+        justify-content: center;
+    }   
+}
+
+
+@media screen and (max-width : 1066px) {
+    .fit-girl {
+        width: 99%;
+    }
+}
+
+
+@media screen and (max-width : 997px) {
+    .coaches ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .coach-thirteen {
+        text-align: center;
+    }
+    
+     .coaches ul li {
+        margin-top: 60px;
+    }
+    
+    .coach-thirteen {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width : 991px) {
+    .header-contact {
+        display: none;
+    }
+    
+    .main-menu {
+        padding: 20px 0px 20px 40px;
+    } 
+    
+    .header__first-title {
+        font-size: 3.5rem;
+    }
+    
+    .header__second-title {
+        font-size: 4rem;
+    }
+    
+    .fit-girl {
+        display: none;
+    }
+    
+    .yoga-fitness {
+        background: #f3f3f3;
+        border: none;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .body-program__first-part ul li {
+        width: 360px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 160px;
+    }
+    
+    .body-program__second-part ul li {
+        width: 360px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 160px;
+        margin-top: 49px;
+    }
+    
+    .footer__img-girl {
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    
+    .motivation {
+        display: none;
+    }
+    
+    .footer-contact {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width : 767px) {
+    .main-menu {
+        display: none;
+    }
+    
+    .header__first-title {
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .header__second-title {
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .header__text {
+        text-align: center;
+    }
+    
+    .header-logo {
+        text-align: center;
+    }
+    
+    .header-logo__second-word {
+        margin-left: 205px;
+    }
+    
+    .fitness__text {
+        width: 100%;
+    }
+    
+    .yoga__img {
+        display: none;
+    }
+    
+    .footer__img-girl {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .third-section {
+       -webkit-clip-path: none;
+       clip-path: none;
+    }
+    
+    .body-program__first-part {
+        margin-left: 70px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 70px;
+    }
+    
+    .burger-menu__btn {
+        display: block;
+        
+    }
+}
+
+
+@media screen and (max-width : 575px) {
+    .header-logo__first-word {
+        margin-left: 0px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 90px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 90px;
+    }
+}
+
+
+@media screen and (max-width : 570px) {
+    .header-logo__second-word {
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (max-width : 562px) {
+    .header-logo__second-word {
+        margin-left: 195px;
+    }
+}
+
+
+@media screen and (max-width : 560px) {
+    .body-program__first-part {
+        margin-left: 80px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 80px;
+    }
+}
+
+
+@media screen and (max-width : 557px) {
+    .footer__img-girl img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width : 552px) {
+    .header-logo__second-word {
+        margin-left: 190px;
+    }
+}
+
+
+@media screen and (max-width : 542px) {
+    .header-logo__second-word {
+        margin-left: 185px;
+    }
+}
+
+
+@media screen and (max-width : 532px) {
+    .header-logo__second-word {
+        margin-left: 180px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 70px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 70px;
+    }
+}
+
+
+@media screen and (max-width : 522px) {
+    .header-logo__second-word {
+        margin-left: 175px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 60px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 60px;
+    }
+}
+
+
+@media screen and (max-width : 512px) {
+    .header-logo__second-word {
+        margin-left: 170px;
+    }
+}
+
+
+@media screen and (max-width : 502px) {
+    .header-logo__second-word {
+        margin-left: 165px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 50px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width : 492px) {
+    .header-logo__second-word {
+        margin-left: 160px;
+    }
+}
+
+
+@media screen and (max-width : 482px) {
+    .header-logo__second-word {
+        margin-left: 155px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 40px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width : 472px) {
+    .header-logo__second-word {
+        margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width : 462px) {
+    .header-logo__second-word {
+        margin-left: 145px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 30px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width : 452px) {
+    .header-logo__second-word {
+        margin-left: 140px;
+    }
+}
+
+
+@media screen and (max-width : 442px) {
+    .header-logo__second-word {
+        margin-left: 135px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 25px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 25px;
+    }
+}
+
+
+@media screen and (max-width : 432px) {
+    .header-logo__second-word {
+        margin-left: 130px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 20px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width : 422px) {
+    .header-logo__second-word {
+        margin-left: 125px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 15px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 15px;
+    }
+}
+
+
+@media screen and (max-width : 412px) {
+    .header-logo__second-word {
+        margin-left: 120px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 10px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width : 402px) {
+    .header-logo__second-word {
+        margin-left: 115px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 5px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width : 392px) {
+    .header-logo__second-word {
+        margin-left: 110px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 0px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 0px;
+    }
+    
+    .header__first-title {
+        font-size: 2.5rem;
+    }
+    
+    .header__second-title {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (max-width : 382px) {
+    .header-logo__second-word {
+        margin-left: 105px;
+    }
+    
+    .body-program__first-part ul li {
+        width: 300px;
+    }
+    
+    .body-program__second-part ul li {
+        width: 300px; 
+    }
+    
+    .body-program__first-part {
+        margin-left: 30px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width : 372px) {
+    .header-logo__second-word {
+        margin-left: 100px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 25px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 25px;
+    }
+}
+
+
+@media screen and (max-width : 362px) {
+    .header-logo__second-word {
+        margin-left: 95px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 20px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width : 352px) {
+    .header-logo__second-word {
+        margin-left: 90px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 15px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 15px;
+    }
+}
+
+
+@media screen and (max-width : 349px) {
+    .header__second-title {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width : 342px) {
+    .header-logo__second-word {
+        margin-left: 85px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 10px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width : 332px) {
+    .header-logo__second-word {
+        margin-left: 80px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 5px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width : 322px) {
+    .header-logo__second-word {
+        margin-left: 75px;
+    }
+    
+    .body-program__first-part {
+        margin-left: 0px;
+    }
+    
+    .body-program__second-part {
+        margin-left: 0px;
+    }
+}

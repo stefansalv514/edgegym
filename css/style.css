@@ -1,0 +1,871 @@
+                   /*-----Спецификация-----*/
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+
+
+
+                   /*-----header-----*/
+
+.header {
+    background: url('../img/header-back.jpg') no-repeat center top / cover;
+    overflow: hidden;
+    position: relative; 
+    padding: 20px 0 330px 0;
+}
+
+.header::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/*header-logo*/
+.header-logo li a {
+    font-family: PlayfairDisplay, sans-serif;
+}
+
+.header-logo li a:hover {
+    text-decoration: none;
+}
+
+.header-logo__first-word a {
+    color: #ff2a8e;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-logo__first-word {
+    margin-left: 35px;
+}
+
+.header-logo__second-word {
+    position: absolute;
+    margin-top: -33px;
+}
+
+.header-logo__second-word a {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+/*header-contact*/
+.header-contact ul {
+    display: flex;
+}
+
+.header-contact ul li {
+    padding: 10px 15px;
+    color: #fff;
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+}
+
+
+/*burger-menu*/
+.burger-menu__btn {
+    background: none;
+    border: none;
+    display: none;
+}
+
+.burger-menu__btn i {
+    color: #fff;
+}
+
+
+/*main-menu*/
+.main-menu {
+    border: 1px solid #d83f87;
+    background: #d83f87;
+    padding: 40px 0px 40px 60px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main-menu ul li a:hover {
+    text-decoration: none;
+    border-radius: 7px;
+    background: #9400d3;
+    transition: 0.5s all;
+    padding: 5px 20px 5px 20px;
+}
+
+
+/*header__first-title*/
+.header__first-title {
+    margin-top: -175px;
+    margin-left: 80px;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+/*header__second-title*/
+.header__second-title {
+    margin-top: -110px;
+    margin-left: 80px;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 5.6rem;
+}
+
+
+/*header__text*/
+.header__text {
+    color: #fff;
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+    font-size: 0.89rem;
+}
+
+
+
+
+
+              /*-----second-section-----*/
+
+.second-section {
+    padding: 0 0 115px 0;
+    background: #f3f3f3;
+}
+
+.row.slim {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row.slim > [class^="col-"], .slim > [class*=" col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/*yoga-fitness*/
+.yoga-fitness {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 0 14px 50px; 25px;
+    margin-top: -127px;
+}
+
+/*yoga*/
+.yoga {
+   
+}
+
+.yoga ul {
+    display: flex;
+}
+
+.yoga__img {
+    margin-top: -131px;
+}
+
+.yoga__info {
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.yoga__title {
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    color: #6a6a6a;
+    font-size: 1.8rem;
+}
+
+.yoga__text {
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.yoga__btn {
+    font-family: GothamProLight, sans-serif;
+    font-weight: bolder;
+    color: #e26fa5;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.yoga__btn:hover {
+    text-decoration: none;
+    color: #e26fa5;
+}
+
+/*fitness*/
+.fitness {
+    margin-top: 50px;
+}
+
+.fitness__title {
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    color: #6a6a6a;
+    font-size: 2rem;
+}
+
+.fitness__text {
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    width: 678px;
+    margin-top: 20px;
+}
+
+.fitness__btn {
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+    border: 1px solid #e26fa5;
+    background: #e26fa5;
+    color: #fff;
+    padding: 8px 10px;
+    border-bottom: 5px solid #d83f87;
+}
+
+.fitness__btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*fit-girl*/
+.fit-girl {
+    width: 300px;
+    height: 515px;
+    background: url('../img/girl.png') no-repeat center top / cover;
+    position: relative; 
+    margin-top: -92px;
+}
+
+.fit-girl::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,8165a6+0 */
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(129,101,166,0.6) 0%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(129,101,166,0.6) 0%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(129,101,166,0.6) 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#8165a6',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+                 /*-----third-section-----*/
+
+.third-section {
+    background: url('../img/fit-class.jpg') no-repeat center top / cover;
+    position: relative; 
+    -webkit-clip-path: polygon(0 0, 300% 30%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 300% 30%, 100% 100%, 0 90%);
+    margin-top: -70px;
+    padding: 100px 0 120px 0;    
+}
+
+.third-section::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#472d69+0,b20619+100 */
+    background: rgb(71,45,105); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(71,45,105,1) 0%, rgba(178,6,25,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(71,45,105,1) 0%,rgba(178,6,25,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(71,45,105,0.7) 0%,rgba(178,6,25,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#472d69', endColorstr='#b20619',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.our-classes__main-title {
+    text-align: center;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 0.03em;
+}
+
+.our-classes__second-title {
+    text-align: center;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+}
+
+/*our-classes__list*/
+.our-classes__list {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.our-classes__list_second {
+    margin-top: 74px;
+}
+
+.our-classes__list_third {
+    margin-top: 50px;
+}
+
+.our-classes__list-name {
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+}
+
+.our-classes__list-description {
+    font-family: GothamProLight, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.our-classes__list-btn {
+    margin-top: 15px;
+}
+
+.our-classes__list-btn a {
+    border: 1px solid #d83f87;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 111, 165);
+    background: #d83f87;
+    color: #fff;
+    padding: 8px 10px;
+    border-bottom: 5px solid #7f1145;
+}
+
+.our-classes__list-btn a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+                 /*-----fouth-section-----*/
+
+.fouth-section {
+    
+}
+
+.bodybuilding-title {
+    text-align: center;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    color: #6a6a6a;
+    font-size: 2rem;
+}
+
+/*body-program__first-part*/
+.body-program__first-part {
+    margin-top: 49px;
+}
+
+.body-program__img-muscle {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-1.jpg') no-repeat right top / cover;
+    position: relative; 
+}
+
+.body-program__img-muscle::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.body-program__btn {
+    position: absolute;
+    width: 310px;
+    text-align: center;
+    background: #d83f87;
+    color: #fff;
+    padding: 8px 10px;
+    margin-left: 23px;
+    margin-top: -35px;
+}
+
+.body-program__btn a {
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-size: 1rem;
+}
+
+.body-program__btn a:hover {
+    text-decoration: none;
+}
+
+.body-program__btn a span {
+    font-weight: bold;
+}
+
+/*body-program__img-cardio */
+.body-program__img-cardio {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-2.jpg') no-repeat center top / cover;
+    position: relative; 
+}
+
+.body-program__img-cardio::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*body-program__img-coach*/
+.body-program__img-coach {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-3.jpg') no-repeat center top / cover;
+    position: relative; 
+}
+
+.body-program__img-coach::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*body-program__second-part*/
+.body-program__second-part {
+    margin-top: 102px;
+}
+
+.body-program__img-stretch {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-4.jpg') no-repeat center top / cover;
+    position: relative; 
+}
+
+.body-program__img-stretch::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*body-program__img-fitness*/
+.body-program__img-fitness {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-5.jpg') no-repeat center top / cover;
+    position: relative; 
+}
+
+.body-program__img-fitness::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*body-program__img-fight*/
+.body-program__img-fight {
+    width: 360px;
+    height: 319px;
+    background: url('../img/bodybuilding-6.jpg') no-repeat center top / cover;
+    position: relative; 
+}
+
+.body-program__img-fight::before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8464a5+0,d64088+100 */
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,0.6) 0%,rgba(214,64,136,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+             /*-----fifth-section-----*/
+
+.fifth-section {
+    background: url('../img/city.jpg') no-repeat center top / cover;
+}
+
+/*coaches*/
+.coaches ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coach-one {
+    margin-top: 95px;
+}
+
+.coach-one a {
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,1) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,1) 0%,rgba(214,64,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    padding: 40px 35px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.coach-two {
+    margin-top: 35px;
+}
+
+.coach-one a:hover {
+    text-decoration: none;
+}
+
+.coach-four {
+    margin-top: 90px;
+}
+
+.coach-five {
+    margin-top: 100px;  
+}
+
+.coach-six {
+    margin-top: 130px;   
+}
+
+.coach-six a {
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,1) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,1) 0%,rgba(214,64,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    padding: 40px 35px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.coach-six a:hover {
+    text-decoration: none;
+}
+
+.coach-seven {
+    margin-top: -105px;
+    margin-left: 30px;
+}
+
+.coach-eight {
+    margin-top: -50px;
+}
+
+.coach-nine {
+    
+}
+
+.coach-ten a {
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,1) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,1) 0%,rgba(214,64,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    padding: 60px 55px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.coach-ten a:hover {
+    text-decoration: none;
+}
+
+.coach-eleven {
+    margin-top: 30px;
+}
+
+.coach-twelve {
+    margin-top: -30px;
+}
+
+.coach-thirteen {
+    margin-top: -110px;
+}
+
+
+
+
+
+               /*-----footer-----*/
+
+.footer {
+    padding: 53px 0;
+    background: rgb(132,100,165); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(132,100,165,0.6) 0%, rgba(214,64,136,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(132,100,165,1) 0%,rgba(214,64,136,08) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(132,100,165,1) 0%,rgba(214,64,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8464a5', endColorstr='#d64088',GradientType=1 ); /* IE6-9 */
+    position: relative; 
+}
+
+.footer::before {
+    background: #fff;
+    width: 620px;
+    height: 448px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+/*footer__img-girl*/
+.footer__img-girl {
+    margin-top: 37px;
+}
+
+/*motivation*/
+.motivation {
+   margin-left: 30px; 
+}
+
+.motivation h4 {
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation__first-word {
+    color: #ff2a8e;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 28px;
+}
+
+.motivation__second-word {
+    color: #6a6a6a;
+    font-size: 2.4rem;
+}
+
+.motivation p {
+    font-family: Gotham, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+/*quick-links*/
+.quick-links {
+    
+}
+
+.quick-links__title {
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+}
+
+.quick-links__list {
+    margin-top: 25px;
+}
+
+.quick-links__list ul li {
+    
+}
+
+.quick-links__list ul li a {
+    color: #fff;
+    font-family: Gotham, sans-serif;
+    font-size: 0.9rem;
+    padding: 5px;
+    display: block;
+}
+
+.quick-links__list ul li a:hover {
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.5s all;
+}
+
+
+/*footer-contact*/
+.footer-contact {
+    
+}
+
+.footer-contact__list {
+    margin-top: 30px;
+}
+
+.footer-contact__title {
+    font-family: PlayfairDisplay, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+}
+
+.footer-contact ul li {
+    color: #fff;
+    font-family: Gotham, sans-serif;
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+
+.footer-contact ul li span {
+    margin-left: 15px;
+}
+
+
+/*footer-contact__socials*/
+.footer-contact__socials {
+    margin-top: 50px;
+}
+
+.footer-contact__socials ul {
+    display: flex;
+}
+
+.footer-contact__socials ul li {
+    padding: 1px 7px;;
+}
+
+.footer-contact__socials ul li a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 11px 11px;
+    background: #fff;
+    color: #c7468d;
+}
+
+.footer-contact__socials ul li a:hover {
+    text-decoration: none;
+}
+
+
+/*footer__last-sentence*/
+.footer__last-sentence {
+    text-align: center;
+    color: #fff;
+    font-family: Gotham, sans-serif; 
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+
+/*footer__my-text*/
+.footer__my-text {
+    text-align: center;
+    color: #fff;
+    font-family: Gotham, sans-serif; 
+    font-size: 0.9rem;
+}
